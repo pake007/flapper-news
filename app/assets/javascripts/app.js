@@ -3,7 +3,7 @@
 *
 * Description
 */
-angular.module('flapperNews', ['ui.router', 'templates'])
+angular.module('flapperNews', ['ui.router', 'templates', 'Devise'])
 .config([
 '$stateProvider', 
 '$urlRouterProvider', 
